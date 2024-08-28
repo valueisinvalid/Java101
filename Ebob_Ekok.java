@@ -9,7 +9,7 @@ public class Ebob_Ekok {
         int ebob=1;
         int ekok=1;
 
-        for(int i =1; i<= n1; i++){
+       /* for(int i =1; i<= n1; i++){
             if(n1%i==0 && n2%i==0){
                 ebob = i;
             }
@@ -27,5 +27,30 @@ public class Ebob_Ekok {
         }
 
         System.out.println(ekok);
+
+        */
+
+        //trying with a while loop
+
+        int i=1;
+
+        while(i<= n1){
+            i++;
+            if(n1%i==0 && n2%i==0){
+                ebob = i;
+            }
+        }
+        System.out.println(ebob);
+
+        while(i<= (n1*n2)){
+            i++;
+            if(i%n1==0 && i%n2==0){
+                ekok = i;
+                break;
+            }
+        }
+        System.out.println(ekok);
+
+
     }
 }
