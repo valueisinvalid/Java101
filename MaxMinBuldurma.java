@@ -9,7 +9,7 @@ public class MaxMinBuldurma {
 
 
         if (sayı <= 0) {
-            System.out.println("Geçersiz sayı. Programı sonlandırıyorum.");
+            System.out.println("Geçersiz sayı.");
             return;
         }
 
