@@ -50,7 +50,7 @@ public class Ebob_Ekok {
             }
         }
         System.out.println(ekok);
-
+// or ekok = n1 * n2 / ebob;
 
     }
 }
